@@ -1,24 +1,30 @@
 import React from 'react'
 import Input from './Input'
 import Button from './Button'
+import './style.css'
 const Header = () =>
 {
     return (
-        <div style={{ display: 'flex', justifyContent: 'space-between', padding: '5px' }}>
+        <div class='main-header' style={{ display: 'flex', justifyContent: 'space-between', padding: '5px' }}>
             {/* logo */}
             <div className='logo'>
                 <img src="https://internship.gwingsoftwaretechnologies.com/images/logo.png" width={'80px'} alt="" />
             </div>
 
             {/* search bar */}
-            <div style={{ display: 'flex', justifyContent: 'space-around', width: '50%' }}>
-                <Input placeholder='Search' />
+            <div className='header-right'>
+                <div>
+                    <Input placeholder='Search' />
+                </div>
 
                 <h6>News</h6>
 
                 <h6>About</h6>
 
-                <Button name='Logout' />
+                <div>
+                    <Button name='Logout' />
+                </div>
+
             </div>
         </div>
     )

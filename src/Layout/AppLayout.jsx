@@ -1,7 +1,7 @@
 import React from 'react'
 import './layout.css'
 import Header from '../Components/Header'
-import Nest from '../Components/Nest'
+import Sidebar from '../Components/Sidebar'
 
 const AppLayout = () =>
 {
@@ -13,7 +13,7 @@ const AppLayout = () =>
             </div>
 
             {/* SideBar */}
-            <div className="sideBar"><Nest /></div>
+            <div className="sideBar"><Sidebar /></div>
 
 
 

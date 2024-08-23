@@ -1,9 +1,10 @@
 import React from 'react'
+import './style.css'
 
 const Input = (props) =>
 {
     const { placeholder } = props
-    return <input type="text" placeholder={placeholder} />
+    return <input id='input-component' type="text" placeholder={placeholder} />
 }
 
 export default Input
