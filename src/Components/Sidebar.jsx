@@ -6,26 +6,26 @@ const Sidebar = () =>
         <div>
             <nav className="sidebar">
                 <div className="menu-content">
-                    <ul className="menu-items">
+                    <ul className="menu-items" style={{ padding: 0 }}>
                         <div className="menu-title">Netlify User</div>
 
                         <li className="item">
-                            <a href="">
+                            <a href="/app">
                                 Sites
                             </a>
                         </li>
                         <li className="item">
-                            <a href="">
+                            <a href="/app/build">
                                 Build
                             </a>
                         </li>
                         <li className="item">
-                            <a href="">
+                            <a href="/app/integration">
                                 Intergration
                             </a>
                         </li>
                         <li className="item">
-                            <a href="">
+                            <a href="/app/domains">
                                 Domains
                             </a>
                         </li>

@@ -44,7 +44,9 @@
 }
 
 /* Sidebar */
-
+.sidebar{
+    width: inherit;
+}
 .sidebar a{
     color: black;
     text-decoration: none;
@@ -59,12 +61,13 @@
 
 .menu-items{
     list-style: none;
+   
 }
 
 .item a{
     padding: 16px;
-    display: inline-block;
-    width: 100%;
+    display: block;
+   
     text-align: left;
     
 }
